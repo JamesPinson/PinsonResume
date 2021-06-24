@@ -1,0 +1,95 @@
+div.centered h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  align-content: center;
+  padding: 20px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: maroon;
+}
+
+.right {
+  right: 0;
+  background-color: whitesmoke;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.centered a:hover {
+  text-decoration: underline;
+}
+
+.right-centered {
+  position: relative;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.centered img {
+  border-radius: 60%;
+}
+
+.centered h1 {
+  font-size: 48px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered h2 {
+  font-size: 36px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+
+.right-centered h2 {
+  font-size: 30px;
+  color: maroon;
+  padding-top: 2.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-centered ul {
+  list-style-type: circle;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-centered li {
+  width: 75%;
+  padding: 5px;
+}
+
+p {
+  margin: initial;
+  margin-right: initial;
+  position: relative;
+  width: 75%;
+  padding: 5px;
+}
